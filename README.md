@@ -1,1 +1,2 @@
-# record
+# TIL
+Today I Learned
