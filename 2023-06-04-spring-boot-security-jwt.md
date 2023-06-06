@@ -13,3 +13,8 @@ jpa create 후 data.sql 파일에 있는 초기 데이터 세팅 sql이 오류 �
 
 # setting for data.sql
 spring.jpa.defer-datasource-initialization: true
+
+spring security + jwt project에서 hs512 알고리즘을 사용할 때 secret key는 64Byte 이상 되어야 한다고 한다.
+why?
+
+secret key 값은 특정 문자열을 base64로 인코딩한 문자열 값을 사용함.
